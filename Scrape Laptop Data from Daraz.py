@@ -60,7 +60,7 @@ for pages in range(20):
 combined_df = pd.concat(dfs, ignore_index=True)
 
 # Put the combined data frame into an excel file
-combined_df.to_excel(r"C:\Downloads\Daraz Laptops Data\Data.xlsx")
+combined_df.to_excel(r"C:\Downloads\Data.xlsx")
 
 # Close the browser
 browser.quit()
